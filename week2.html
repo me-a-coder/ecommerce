@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">Teesha</div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Product</a>
+                <a href="#">Pages</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Lookbook</a>
+                <a href="#">Blog</a>
+                <a href="#">Buy</a>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="banner">
+        <img src="banner.jpg" alt="Banner Image">
+        <div class="banner-text">
+            <h2>Mega Summer Sale</h2>
+            <h1>Big Discount Up to 50%</h1>
+            <button>Start Shopping</button>
+        </div>
+    </section>
+    
+    <section class="categories">
+        <div class="category">
+            <img src="hat.jpg" alt="Accessories">
+            <h3>Accessories</h3>
+            <p>Shop now →</p>
+        </div>
+        <div class="category">
+            <img src="shirt.jpg" alt="Clothing">
+            <h3>Clothing</h3>
+            <p>Shop now →</p>
+        </div>
+        <div class="category">
+            <img src="handbag.jpg" alt="Handbag">
+            <h3>Handbag</h3>
+            <p>Shop now →</p>
+        </div>
+        <div class="category">
+            <img src="footwear.jpg" alt="Footwear" height = 150px>
+            <h3>Footwear</h3>
+            <p>Shop now →</p>
+        </div>
+    </section>
+    
+    <section class="latest-products">
+        <h2>Latest Products</h2>
+        <div class="products">
+            <div class="product" data-description="This is a great product." data-price="$19.99">
+                <img src="a1.jpg" alt="Product 1" height = 150px>
+                <p>Product 1</p>
+            </div>
+            <div class="product" data-description="This is another great product." data-price="$29.99">
+                <img src="a2.jpg" alt="Product 2">
+                <p>Product 2</p>
+            </div>
+            <div class="product" data-description="This product is also great." data-price="$39.99">
+                <img src="a3.jpg" alt="Product 3">
+                <p>Product 3</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="product-details" class="product-details hidden">
+        <h2>Product Details</h2>
+        <p id="product-description"></p>
+        <p id="product-price"></p>
+        <button id="close-details">Close</button>
+    </section>
+    
+    <footer>
+        <p>© 2024 Teesha. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
